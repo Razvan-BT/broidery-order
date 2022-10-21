@@ -61,10 +61,13 @@ select {
 }
 
 .thumbail-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
 
-.thumbail-index {
-    width: 50px;
+#thumbail-index {
+    width: 80%;
     height: 50px;
 }
