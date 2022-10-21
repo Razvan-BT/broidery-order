@@ -61,5 +61,10 @@ select {
 }
 
 .thumbail-preview {
-    width: 80%;
+    width: 100%;
+}
+
+.thumbail-index {
+    width: 50px;
+    height: 50px;
 }
