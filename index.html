@@ -29,7 +29,7 @@
             </div>
             <div class="formats">
                 <label for="fms-font">Font:</label>
-                <select type="text" name="fms-font">
+                <select type="text" name="fms-font" id="font">
                     <option value="Edwardian Script" >Edwardian Script</option>
                     <option value="Handy Script" >Handy Script</option>
                     <option value="Bodoni" >Bodoni</option>
@@ -39,6 +39,7 @@
                     <option value="Times Roman" >Times Roman</option>
                     <option value="City Script" >City Script</option>
                     <option value="Casual Serif" >Casual Serif</option>
+                    <option value="Book Script" >Book Script</option>
                     <option value="Small Block2" >Block</option>
                     <option value="Chancery" >Script</option>
                 </select>
@@ -46,23 +47,26 @@
             <div class="formats">
                 <label for="fms-color">Color:</label>
                 <select type="text" name="fms-color" id="color">
-                    <option value="Empty">Error</option>
+                    <!-- <option value="Error">Error</option> -->
                 </select>
             </div>
             <div class="formats">
                 <label for="fms-position">Position:</label>
                 <select type="text" name="fms-position" id="position">
-                    <option value="Empty">Error</option>
+                    <option value="CFM">CFM</option>
+                    <option value="CIM">CIM</option>
+                    <option value="COM">COM</option>
+                    <option value="CTM">CTM</option>
                 </select>
+            </div>
+
+            <div class="thumbail-preview">
+                <img id="thumbail-index" alt="Preview">
             </div>
 
             <div class="button-position">
                 <button class="button" id="submit-button">Preview</button>
             </div>
-        </div>
-
-        <div class="thumbail-preview">
-            <img id="img-preview">
         </div>
     </div>
 
