@@ -10,9 +10,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.css" />
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>  -->
+   
+
     <script src="./src/js/jquery.min.js" defer></script>
+    <script src="./src/js/select2.js" defer></script>
     <script src="./src/js/index.min.js" defer></script>
-    <!-- <script src="./src/js/dropdown.min.js" defer></script> -->
 
     <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="./src/css/style.css">
@@ -37,7 +41,7 @@
             </div>
             <div class="formats">
                 <label for="fms-font">Font:</label>
-                <select type="text" name="fms-font" id="font">
+                <!-- <select type="text" name="fms-font" id="font">
                     <option value="Edwardian Script">Edwardian Script</option>
                     <option value="Handy Script">Handy Script</option>
                     <option value="Bodoni">Bodoni</option>
@@ -50,13 +54,28 @@
                     <option value="Book Script">Book Script</option>
                     <option value="Small Block2">Block</option>
                     <option value="Chancery">Script</option>
+                </select> -->
+                <select id="id_select2_example" class="font" style="width: 100%;">
+                    <option value="Chancery" data-img_src="images/fonts/Chancery.png"></option>
+                    <option data-img_src="images/fonts/Block.png"></option>
+                    <option data-img_src="images/fonts/Helvetica.png"></option>
+                    <option data-img_src="images/fonts/Edwardian Script.png"></option>
+                    <option data-img_src="images/fonts/Bodoni.png"></option>
+                    <option data-img_src="images/fonts/Copperplate.png"></option>
+                    <option data-img_src="images/fonts/Castle.png"></option>
+                    <option data-img_src="images/fonts/Helvetica.png"></option>
+                    <option data-img_src="images/fonts/Times Roman.png"></option>
+                    <option data-img_src="images/fonts/City Script.png"></option>
+                    <option data-img_src="images/fonts/Casual Serif.png"></option>
+                    <option data-img_src="images/fonts/Book Script.png"></option>
                 </select>
+
             </div>
-                        
+
             <div class="formats">
                 <label for="fms-color">Color:</label>
                 <select type="text" name="fms-color" id="color"></select>
-            </div> 
+            </div>
 
             <div class="formats">
                 <label for="fms-position">Position:</label>
