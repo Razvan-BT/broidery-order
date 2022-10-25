@@ -18,7 +18,7 @@ body {
 
 .insert-elements {
     position: absolute;
-    top: 5%;
+    top: 7%;
     /* transform: translateX(-30%), translateY(-30%); */
     background-color: rgb(245, 245, 245);
     box-shadow: 1px 0px 5px rgb(192, 192, 192);
